@@ -47,10 +47,13 @@ Quedaría así:
 # Ejercicio 2 — Reorganización del header con tres elementos
 ## Ahora debes incluir también el botón del menú lateral dentro del header.
 ### 2A.
-"<header class="site-header">
-  <h1>Mi Sitio Web</h1>
+Añamidmos en el HTML un nav con el id SiteMenú y la clase navham, le ponemos "input type = "checkbox" id = "toggle"", "label for = "toggle"", el símbolo ☰, cerramos label, creamos un "div class = "texto"", añadimos el índice y cerramos tanto el div como el nav.
+### 2B.
+En el CSS añadimos "#toggle { display: none; }" "label { display: inline-block; padding: 10px 15px; cursor: pointer; user-select: none; }" ".texto { display: none; margin-top: 10px; padding: 10px; }" "#toggle chacked ~.texto { display: block; }" ".navham { display: flex; align-items: left; }
 
-  <nav class="main-nav">
-      ...
-  </nav>
-</header>"
+# Ejercicio 3 — Miniaturas, zoom y enlace a la imagen original
+## En tu galería de imágenes, debes realizar lo siguiente:
+### 3A. Crear miniaturas
+### 3B. Efecto hover
+### 3C. Enlace a la imagen original
+<img width="613" height="724" alt="galería" src="https://github.com/user-attachments/assets/75831d79-9ebc-466a-8414-6ccfa35d1ee9" />
